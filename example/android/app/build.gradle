@@ -79,7 +79,7 @@ android {
 
     namespace "reserplusexample"
     defaultConfig {
-        applicationId "reserplusexample"
+        applicationId "com.reserplusexample"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

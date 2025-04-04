@@ -14,10 +14,17 @@ class ReserplusModule(reactContext: ReactApplicationContext) :
   // Example method
   // See https://reactnative.dev/docs/native-modules-android
   override fun multiply(a: Double, b: Double): Double {
-    return a * b
+    return nativeMultiply(a, b)
   }
+
+  private external fun nativeMultiply(a: Double, b: Double): Double
 
   companion object {
     const val NAME = "Reserplus"
+
+     // This loads the native library when the class is loaded
+     init {
+       System.loadLibrary("react-native-quack")
+     }
   }
 }

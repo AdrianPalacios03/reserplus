@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "description": "Library for using C++ Turbo Modules in Reserhub's saas-app",
   "source": "./src/index.tsx",
-  "main": "./lib/module/index.js",
+  "main": "./src/index.tsx",
   "exports": {
     ".": {
       "types": "./lib/typescript/src/index.d.ts",
-      "default": "./lib/module/index.js"
+      "default": "./src/index.tsx"
     },
     "./package.json": "./package.json"
   },

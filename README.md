@@ -5,7 +5,7 @@ Library for using C++ Turbo Modules in Reserhub's saas-app
 ## Installation
 
 ```sh
-npm install react-native-reserplus
+yarn add github:AdrianPalacios03/reserplus#main;  
 ```
 
 ## Usage
